@@ -1,6 +1,3 @@
-import React from "react";
-import { useState } from "react";
-
 import CardGroup from "react-bootstrap/CardGroup";
 
 import StoryCard from "../components/StoryCard";

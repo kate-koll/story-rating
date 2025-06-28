@@ -1,5 +1,5 @@
 // import React from "react";
-import {BrowserRouter, Switch, Route} from "react-router-dom"
+import {HashRouter, Switch, Route} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./App.css";
@@ -9,12 +9,12 @@ import Raiting from './pages/Rating';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/rating" component={Raiting} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

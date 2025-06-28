@@ -15,7 +15,7 @@ const Rating = () => {
         <StoryCard
           title="Harry Potter"
           text="Dobrodružství mladého kouzelníka, Harryho Pottera, a jeho přátel, Ronalda Weasleyho a Hermiony Grangerové, kteří všichni studují na Škole čar a kouzel v Bradavicích."
-          img="https://www.zsuvoz.cz/lib/exe/fetch.php?cache=&w=320&h=288&tok=5f6688&media=harry-potter-logo-png-19.png"
+          img="https://blog.logomyway.com/wp-content/uploads/2021/09/hogwarts-logo-draco.jpg"
         ></StoryCard>
 
         <StoryCard        
